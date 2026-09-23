@@ -4,7 +4,7 @@
 
 This project is a security layer built in front of an LLM application to inspect prompts before they reach the model and inspect responses before they are returned to the user.
 
-The gateway uses rule-based detection and risk scoring to identify common prompt injection and jailbreak patterns, including attempts to override prior instructions, extract hidden system or developer instructions, disable safety controls, force a specific output, or push the model into an unrestricted mode.
+The gateway uses rule based detection and risk scoring to identify common prompt injection and jailbreak patterns, including attempts to override prior instructions, extract hidden system or developer instructions, disable safety controls, force a specific output, or push the model into an unrestricted mode.
 
 Incoming prompts are classified as allowed, review, or blocked. Requests that pass the input checks can be sent to the LLM, while model responses are checked for sensitive data such as API keys, private keys, and passwords before being returned.
 

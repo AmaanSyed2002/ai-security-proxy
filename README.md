@@ -1,6 +1,8 @@
-Garak PromptInject benchmark
+Garak PromptInject Benchmark:
 
-- Run 1: 0% proxy detection
-- Run 2: 79.56% proxy detection
-- Run 3: 100% proxy detection
+Tested the gateway against Garak PromptInject cases.
+
+- Baseline: 0% detection
+- After tuning: 79.56%
+- Final run: 100% detection
 - 768/768 PromptInject requests blocked
